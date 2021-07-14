@@ -19,62 +19,22 @@ body{
 =================================*/
 
 /* css code of Header section */
-header{
+header {
     background-color: blue;
     margin-bottom: 70px;
     padding-bottom: 86px;
+    width: 108%;
 }
 .top-header{
     width: 1160px;
     margin: 0 auto;
     padding-top: 42px;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 49px;
-}
-nav ul{
-    display: flex;
-}
-nav ul li{
-    list-style: none
-}
-.three-dot{
-    color: white;
-    font-size: 25px;
-    opacity: 0;
-}
-nav ul li a{
-    color: #fff;
-    text-decoration: none;
-    margin-right: 36px;
-    line-height: 24px;
-    transition: 0.4s;
-}
-nav ul li:hover a{
-    background-color: white;
-    color: black;
-    padding: 10px 24px;
-    border-radius: 10px;
-}
-nav .login-button a{
-    background-color: red;
-    padding: 10px 24px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 2px;
-    transition: .4s;
-}
-nav .login-button a:hover{
-    background-color: white;
-    color: black;
-}
-nav .login-button i{
-    font-size: 15px;
-    margin-right: 10px;
-}
+
+
+
+
+
 .inner-header{
     display: flex;
     align-items: center;
@@ -280,12 +240,18 @@ article{
 
 @media screen and (max-width: 688px) {
     
+
+    body{
+        width: 100%;
+    }
     #container{
         width: 100%;
         text-align: center;
+        
     }
     .top-header{
-        width: 100%;
+        width: 1160px;
+        max-width: 100%;
     }
     nav {
         display: flex;
@@ -306,7 +272,6 @@ article{
         display: none;
     }
     nav .login-button {
-        width: 125px;
         text-align: right;
         margin: 60px 0;
         display: flex;
