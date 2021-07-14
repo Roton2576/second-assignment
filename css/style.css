@@ -24,6 +24,7 @@ body{
 header{
     background-color: blue;
     margin-bottom: 70px;
+    padding-bottom: 86px;
 }
 .top-header{
     width: 1160px;
@@ -47,12 +48,25 @@ nav ul li a{
     text-decoration: none;
     margin-right: 36px;
     line-height: 24px;
+    transition: 0.4s;
+}
+nav ul li:hover a{
+    background-color: white;
+    color: black;
+    padding: 10px 24px;
+    border-radius: 10px;
 }
 nav .login-button a{
     background-color: red;
     padding: 10px 24px;
     color: #fff;
     text-decoration: none;
+    border-radius: 2px;
+    transition: .4s;
+}
+nav .login-button a:hover{
+    background-color: white;
+    color: black;
 }
 nav .login-button i{
     font-size: 15px;
@@ -77,6 +91,12 @@ nav .login-button i{
     text-decoration: none;
     font-weight: 500;
     line-height: 24px;
+    border-radius: 2px;
+    transition: .4s;
+}
+.inner-header-title a:hover{
+    background-color: white;
+    color: black;
 }
 .inner-header-image{
     width: 556px;
@@ -84,6 +104,11 @@ nav .login-button i{
 }
 .inner-header-image img{
     max-width: 100%;
+    transition: transform 1.2s;
+}
+.inner-header-image:hover img{
+    transform: rotate(360deg) scale(1.1);
+    /* transform: scale(1.2); */
 }
 
 /* Header section code is finished */
@@ -122,11 +147,12 @@ article{
 
 /* start second section or blogs-area part */
 
-.blogs-area{
+.blogs-area {
     display: flex;
     align-items: center;
     margin: 165px 0;
     margin-left: 115px;
+    margin-bottom: 150px;
 }
 .blog-title{
     width: 469px;
@@ -150,6 +176,12 @@ article{
     padding: 10px 24px;
     letter-spacing: 0.02em;
     color: #ffffff;
+    border-radius: 5px;
+    transition: 1s;
+}
+.blogs-area:hover a{
+    background-color: black;
+    color: white;
 }
 .blog-title i {
     margin-top: 24px;
@@ -164,6 +196,45 @@ article{
 }
 
 /* second section or blogs area part is finished */
+
+
+.signUp-place {
+    background-color: #811f83;
+    margin-bottom: 40px;
+}
+.signUp-form h2 {
+    font-size: 28px;
+    color: white;
+    padding-top: 50px;
+}
+.signUp-form input {
+    width: 240px;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: none;
+    margin: 20px 30px 50px 1px;
+}
+.signUp-form button {
+    width: 240px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    padding: 0 20px;
+    cursor: pointer;
+    background: darkblue;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.20em;
+    transition: .4s;
+}
+.signUp-form button:hover{
+    background-color: white;
+    color: black;
+}
+
 
 
 /* Footer part is start */
@@ -189,6 +260,11 @@ article{
     background-color: #80808052;
     border-radius: 50%;
     margin: 10px 5px 20px 5px;
+    transition: 1s;
+}
+.social-icons i:hover{
+    background-color: rgba(255, 0, 0, 0.39);
+    color: black;
 }
 .social-icons span{
     font-size: 18px;
