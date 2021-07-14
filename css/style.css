@@ -4,11 +4,9 @@
 
 /* common css of body part */
 
-*{
+body{
     margin: 0;
     padding: 0;
-}
-body{
     font-family: 'Work Sans', sans-serif;
 }
 #container{
@@ -281,19 +279,20 @@ article{
 /* start media query for mobile devices */
 
 @media screen and (max-width: 688px) {
+    
     #container{
-        width: 100%;
+        width: 86%;
         text-align: center;
     }
     .top-header{
         width: 100%;
     }
     nav {
-    display: flex;
-    width: 100%;
-    margin-top: -78px;
-    justify-content: center;
-}
+        display: flex;
+        width: 100%;
+        margin-top: -78px;
+        justify-content: center;
+    }
     nav ul li a{
         margin-right: 10px;
     }
@@ -301,17 +300,18 @@ article{
         opacity: 1;
         font-size: 40px;
         margin-right: 260px;
-        margin-left: 10px;
+        margin-left: 15px;
     }
     nav .main-align{
         display: none;
     }
     nav .login-button {
-        width: 100%;
+        width: 125px;
         text-align: right;
         margin: 60px 0;
         display: flex;
         margin-right: 10px;
+        margin-left: -40px;
     }
     nav .login-button a{
         display: flex;
@@ -331,7 +331,6 @@ article{
     }
     .inner-header-image {
         width: 100%;
-        margin-bottom: -124px;
     }
     .inner-header-image img{
         max-width: 100%;
