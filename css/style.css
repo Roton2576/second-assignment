@@ -105,7 +105,6 @@ nav .login-button i{
 }
 .inner-header-image{
     width: 556px;
-    height: 438px;
 }
 .inner-header-image img{
     max-width: 100%;
@@ -129,13 +128,11 @@ article{
 }
 .players-area{
     width: 300px;
-    height: 426px;
     padding: 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .player-img img{
     width: 300px;
-    height: 256px;
 }
 .player-info h3{
     font-size: 28px;
@@ -161,7 +158,6 @@ article{
 }
 .blog-title{
     width: 469px;
-    height: 309px;
     margin-right: 66px;
 }
 .blog-title h1{
@@ -194,7 +190,6 @@ article{
 }
 .blog-image{
     width: 567px;
-    height: 427px;
 }
 .blog-image img{
     max-width: 100%;
@@ -294,10 +289,11 @@ article{
         width: 100%;
     }
     nav {
-        display: flex;
-        width: 100%;
-        margin-top: -78px;
-    }
+    display: flex;
+    width: 100%;
+    margin-top: -78px;
+    justify-content: center;
+}
     nav ul li a{
         margin-right: 10px;
     }
@@ -370,8 +366,9 @@ article{
     .blog-image img{
         width: 100%;
     }
-    .signUp-place{
+    .signUp-place {
         padding-bottom: 50px;
+        margin-top: 100px;
     }
     .signUp-form{
         width: 100%;
