@@ -23,18 +23,13 @@ header {
     background-color: blue;
     margin-bottom: 70px;
     padding-bottom: 86px;
-    width: 108%;
+    width: 112%;
 }
 .top-header{
     width: 1160px;
     margin: 0 auto;
     padding-top: 42px;
 }
-
-
-
-
-
 .inner-header{
     display: flex;
     align-items: center;
@@ -366,3 +361,5 @@ article{
 
 
 }
+
+/* media query is finished */
