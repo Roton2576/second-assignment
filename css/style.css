@@ -281,7 +281,7 @@ article{
 @media screen and (max-width: 688px) {
     
     #container{
-        width: 86%;
+        width: 100%;
         text-align: center;
     }
     .top-header{
@@ -311,10 +311,11 @@ article{
         margin: 60px 0;
         display: flex;
         margin-right: 10px;
-        margin-left: -40px;
+        margin-left: -50px;
     }
-    nav .login-button a{
+    nav .login-button a {
         display: flex;
+        margin-left: -50px;
     }
     .inner-header {
         width: 100%;
