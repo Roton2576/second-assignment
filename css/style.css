@@ -43,6 +43,11 @@ nav ul{
 nav ul li{
     list-style: none
 }
+.three-dot{
+    color: white;
+    font-size: 25px;
+    opacity: 0;
+}
 nav ul li a{
     color: #fff;
     text-decoration: none;
@@ -289,11 +294,21 @@ article{
         width: 100%;
     }
     nav {
+        display: flex;
         width: 100%;
         margin-top: -78px;
     }
     nav ul li a{
         margin-right: 10px;
+    }
+    nav .three-dot {
+        opacity: 1;
+        font-size: 40px;
+        margin-right: 260px;
+        margin-left: 10px;
+    }
+    nav .main-align{
+        display: none;
     }
     nav .login-button {
         width: 100%;
@@ -302,6 +317,9 @@ article{
         display: flex;
         margin-right: 10px;
     }
+    nav .login-button a{
+        display: flex;
+    }
     .inner-header {
         width: 100%;
         flex-direction: column;
@@ -309,12 +327,15 @@ article{
     .inner-header-title h1 {
         font-size: 22px;
     }
-    .inner-header-title{
+    .inner-header-title {
         width: 100%;
         text-align: center;
+        margin-top: -54px;
+        margin-bottom: 37px;
     }
     .inner-header-image {
         width: 100%;
+        margin-bottom: -124px;
     }
     .inner-header-image img{
         max-width: 100%;
