@@ -20,7 +20,75 @@ body{
         main css code start 
 =================================*/
 
-/* css code of first section */
+/* css code of Header section */
+header{
+    background-color: blue;
+    margin-bottom: 70px;
+}
+.top-header{
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 42px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 49px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 36px;
+    line-height: 24px;
+}
+nav .login-button a{
+    background-color: red;
+    padding: 10px 24px;
+    color: #fff;
+    text-decoration: none;
+}
+nav .login-button i{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.inner-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inner-header-title h1{
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 27px;
+}
+.inner-header-title a{
+    background-color: red;
+    padding: 10px 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 24px;
+}
+.inner-header-image{
+    width: 556px;
+    height: 438px;
+}
+.inner-header-image img{
+    max-width: 100%;
+}
+
+/* Header section code is finished */
+
+/* first section code is start */
 
 article{
     display: grid;
@@ -50,8 +118,7 @@ article{
     line-height: 26px;
 }
 
-/* first section css code is finished */
-
+/* first section code is finished */
 
 /* start second section or blogs-area part */
 
